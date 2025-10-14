@@ -1,0 +1,13 @@
+# Archivos compilados de Java
+bin/
+*.class
+
+# Configuración de Visual Studio Code
+.vscode/
+
+# Librerías externas locales
+lib/
+
+# Archivos temporales o de registro
+*.log
+*.tmp
