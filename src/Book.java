@@ -1,8 +1,8 @@
 // Subclase concreta con su lógica particular
 
-public class Book extends Product {
-    public Book(String name, double price) {
-        super(name, price);
+public class Book extends PhysicalProduct {
+    public Book(String name, double price, double weight) {
+        super(name, price, weight);
     }
 
     @Override

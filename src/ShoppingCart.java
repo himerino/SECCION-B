@@ -16,9 +16,7 @@ public class ShoppingCart {
 
     public double calculateTotalPrice() {
         double total = 0;
-        for (Product p : products) {
-            total += p.getPrice() + p.calculateIVA();
-        }
+        // Lógica para calcular el precio total
         return total;
     }
 }

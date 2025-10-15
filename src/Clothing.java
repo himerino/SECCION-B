@@ -1,16 +1,11 @@
 // Subclase concreta con su lógica particular
 
-public class Clothing extends Product {
-    private double weight;
+public class Clothing extends PhysicalProduct {
 
     public Clothing(String name, double price, double weight) {
-        super(name, price);
-        this.weight = weight;
+        super(name, price, weight);
     }
 
-    public double getWeight() {
-        return weight;
-    }
 
     @Override
     public double calculateIVA() {

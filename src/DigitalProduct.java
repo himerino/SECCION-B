@@ -1,12 +1,8 @@
-// Subclase concreta con su lógica particular
+// Subclase base para productos digitales
 
-public class DigitalProduct extends Product {
+public abstract class DigitalProduct extends Product {
     public DigitalProduct(String name, double price) {
         super(name, price);
     }
 
-    @Override
-    public double calculateIVA() {
-        return getPrice() * 0.10; // Por ejemplo
-    }
 }
